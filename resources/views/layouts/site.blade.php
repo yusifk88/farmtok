@@ -5,11 +5,15 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{config("app.name")}}</title>
+
+    @yield("header")
+
+    <title>{{config("app.name")}} . {{ucwords(request()->route()->getName())}}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@700;800&display=swap"
           rel="stylesheet">
+    <link rel="icon" href="/img/crest.png">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -37,20 +41,29 @@
 <div class="container-fluid bg-primary text-white d-none d-lg-flex wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-3">
         <div class="d-flex align-items-center">
-            <a href="index.html">
+            <a href="/">
                 <h2 class="text-white fw-bold m-0">FarmTok</h2>
             </a>
             <div class="ms-auto d-flex align-items-center">
                 <small class="ms-4"><i class="fa fa-map-marker-alt me-3"></i>20 Salia Street off Koroma Street
                     Kenema District, Sierra Leone</small>
-                <small class="ms-4"><i class="fa fa-envelope me-3"></i>info@farmtok.org</small>
-                <small class="ms-4"><i class="fa fa-phone-alt me-3"></i>+232 34 12 59 21</small>
+                <small class="ms-4"><i class="fa fa-envelope me-3"></i>
+                    <a href="mailto:info@farmtok.org" class="text-white">info@farmtok.org</a>
+                </small>
+                <small class="ms-4"><i class="fa fa-phone-alt me-3"></i>
+                    <a class="text-white" href="tel:+232 34 12 59 21">+232 34 12 59 21</a>
+                </small>
                 <div class="ms-3 d-flex">
-                    <a class="btn btn-sm-square btn-light text-primary ms-2" href=""><i
+                    <a class="btn btn-sm-square btn-light text-primary ms-2 rounded" target="_blank" href="https://www.instagram.com/farmtok/"><i
+                            class="fab fa-instagram"></i></a>
+
+                     <a class="btn btn-sm-square btn-light text-primary ms-2 rounded" target="_blank" href="https://www.facebook.com/share/16TN3NGVBS"><i
                             class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square btn-light text-primary ms-2" href=""><i
+
+
+                    <a class="btn btn-sm-square btn-light text-primary ms-2 rounded" href=""><i
                             class="fab fa-twitter"></i></a>
-                    <a class="btn btn-sm-square btn-light text-primary ms-2" href=""><i
+                    <a class="btn btn-sm-square btn-light text-primary ms-2 rounded" href=""><i
                             class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
@@ -64,8 +77,8 @@
 <div class="container-fluid bg-white sticky-top wow fadeIn" data-wow-delay="0.1s">
     <div class="container">
         <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
-            <a href="index.html" class="navbar-brand d-lg-none">
-                <h1 class="fw-bold m-0">WELDORK</h1>
+            <a href="/" class="navbar-brand d-lg-none">
+                <h1 class="fw-bold m-0">FarmTok</h1>
             </a>
             <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -73,23 +86,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Services</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
-                            <a href="feature.html" class="dropdown-item">Features</a>
-                            <a href="team.html" class="dropdown-item">Our Team</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            <a href="appoinment.html" class="dropdown-item">Appoinment</a>
-                            <a href="404.html" class="dropdown-item">404 Page</a>
-                        </div>
-                    </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="{{route("home")}}" class="nav-item nav-link {{request()->route()->getName()=="home" ? 'active': ''}}">Home</a>
+                    <a href="{{route("about")}}" class="nav-item nav-link {{request()->route()->getName()=="about" ? 'active': ''}}">About</a>
+                    <a href="{{route("contact")}}" class="nav-item nav-link {{request()->route()->getName()=="contact" ? 'active': ''}}">Contact</a>
                 </div>
                 <div class="ms-auto d-none d-lg-block">
-                    <a href="" class="btn btn-primary py-2 px-3">Get A Quote</a>
+{{--                    <a href="" class="btn btn-primary py-2 px-3">Get A Quote</a>--}}
                 </div>
             </div>
         </nav>
@@ -100,6 +102,139 @@
 
 @yield("page")
 
+<!-- Appoinment Start -->
+<div class="container-fluid appoinment mt-6 mb-6 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container pt-5">
+        <div class="row gy-5 gx-0">
+            <div class="col-lg-12  pe-lg-5 wow fadeIn" data-wow-delay="0.3s">
+                <h1 class="display-6 text-uppercase text-white mb-4">Get in touch</h1>
+                <p class="text-white mb-5 wow fadeIn" data-wow-delay="0.4s">
+                  Get in touch with us to help elevate your business, through professional consultancy, empowerment and brand advocacy
+                </p>
+
+
+                <div class="d-flex align-items-center text-start mx-auto wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn-lg-square bg-white">
+                        <i class="bi bi-geo-alt text-dark fs-3"></i>
+                    </div>
+                    <div class="ms-3">
+                        <h6 class="text-white text-uppercase">Office Address</h6>
+                        <span class="text-white">20 Salia Street off Koroma Street Kenema District, Sierra Leone</span>
+                    </div>
+                </div>
+
+
+                <hr class="bg-body">
+                <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.6s">
+                    <div class="btn-lg-square bg-white">
+                        <i class="bi bi-phone text-dark fs-3"></i>
+                    </div>
+                    <div class="ms-3">
+                        <h6 class="text-white text-uppercase">Tel</h6>
+                        <span class="text-white"> <a class="text-white" href="tel:+232 34 12 59 21">+232 34 12 59 21</a></span>
+                    </div>
+                </div>
+
+
+                <hr class="bg-body">
+                <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.6s">
+                    <div class="btn-lg-square bg-white">
+                        <i class="bi bi-inbox text-dark fs-3"></i>
+                    </div>
+                    <div class="ms-3">
+                        <h6 class="text-white text-uppercase">Email</h6>
+                        <span class="text-white"><a href="mailto:info@farmtok.org" class="text-white">info@farmtok.org</a></span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Appoinment End -->
+
+
+
+<!-- Team Start -->
+<div class="container-fluid team pt-6 pb-6">
+    <div class="container">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <h1 class="display-6 text-uppercase mb-5">Meet Our team of Professionals and Volunteers</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100 rounded" src="img/member-1.jpg" alt="">
+                        <div class="team-social rounded">
+                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-1">Alex Robin</h5>
+                        <span>Member</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100 rounded" src="img/member-2.jpg" alt="">
+                        <div class="team-social rounded">
+                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-1">Andrew Bon</h5>
+                        <span>Member</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100 rounded" src="img/member-3.jpg" alt="">
+                        <div class="team-social rounded">
+                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-1">Martin Tompson</h5>
+                        <span>Member</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100 rounded" src="img/member-4.jpg" alt="">
+                        <div class="team-social rounded">
+                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-1">Clarabelle Samber</h5>
+                        <span>Member</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Team End -->
 
 
 <!-- Newsletter Start -->
@@ -111,7 +246,7 @@
                     <h1 class="display-6 text-uppercase mb-4">Newsletter</h1>
                     <div class="d-flex">
                         <i class="far fa-envelope-open fa-3x text-primary me-4"></i>
-                        <p class="fs-5 fst-italic mb-0">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore lorem ipsum.</p>
+                        <p class="fs-5 fst-italic mb-0">Join our newsletter if you will like to hear from us</p>
                     </div>
                 </div>
                 <div class="col-md-6 wow fadeIn" data-wow-delay="0.5s">
@@ -137,13 +272,16 @@
                 <p class="mb-2 text-white"><i class="fa fa-phone-alt text-white me-3"></i>+232 34 12 59 21</p>
                 <p class="mb-2 text-white"><i class="fa fa-envelope text-white me-3"></i>info@farmtok.org</p>
                 <div class="d-flex pt-3">
-                    <a class="btn btn-square btn-light me-2" href=""><i
+                    <a class="btn btn-square btn-light me-2 rounded" href="https://www.instagram.com/farmtok/" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+
+                    <a class="btn btn-square btn-light me-2 rounded" href=""><i
                             class="fab fa-twitter"></i></a>
-                    <a class="btn btn-square btn-light me-2" href=""><i
+                    <a class="btn btn-square btn-light me-2 rounded" target="_blank" href="https://www.facebook.com/share/16TN3NGVBS"><i
                             class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square btn-light me-2" href=""><i
+                    <a class="btn btn-square btn-light me-2 rounded" href=""><i
                             class="fab fa-youtube"></i></a>
-                    <a class="btn btn-square btn-light me-2" href=""><i
+                    <a class="btn btn-square btn-light me-2 rounded" href=""><i
                             class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
