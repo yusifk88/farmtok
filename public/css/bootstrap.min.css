@@ -18,7 +18,7 @@
     --bs-white: #fff;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
-    --bs-primary: green;
+    --bs-primary: #194A11;
     --bs-secondary: #797672;
     --bs-success: #198754;
     --bs-info: #0dcaf0;
@@ -1899,7 +1899,7 @@ progress {
 }
 
 .table-primary {
-    --bs-table-bg: green;
+    --bs-table-bg: #194A11;
     --bs-table-striped-bg: #e9ddcb;
     --bs-table-striped-color: #000;
     --bs-table-active-bg: #ddd2c1;
@@ -2915,15 +2915,15 @@ textarea.form-control-lg {
 
 .btn-primary {
     color: #000;
-    background-color: green;
-    border-color: green;
+    background-color: #194A11;
+    border-color: #194A11;
     border-radius: 5px;
 }
 
 .btn-primary:hover {
     color: #000;
-    background-color: green;
-    border-color: green
+    background-color: #194A11;
+    border-color: #194A11
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -7784,7 +7784,7 @@ textarea.form-control-lg {
 }
 
 .text-primary {
-    color: green !important
+    color: #194A11 !important
 }
 
 .text-secondary {
@@ -7840,7 +7840,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-    background-color: green !important
+    background-color: #194A11 !important
 }
 
 .bg-secondary {

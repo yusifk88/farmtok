@@ -248,7 +248,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/carousel-2.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -286,7 +286,7 @@
 
 /*** Features ***/
 .feature {
-    background: linear-gradient(to right, rgba(0, 0, 0, .1), rgba(0, 0, 0, 1) 50%), url(../img/carousel-1.jpg) left center no-repeat;
+    background: linear-gradient(to right, rgba(0, 0, 0, .1), rgb(81, 63, 8)), url(../img/work.jpeg) left center no-repeat;
     background-size: cover;
 }
 
@@ -390,7 +390,7 @@
 
 /*** Appoinment ***/
 .appoinment {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/carousel-2.jpg) left center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/contact_bg.jpeg) left center no-repeat;
     background-size: cover;
 }
 
@@ -577,4 +577,12 @@
 
 .rounded{
     border-radius: 15px!important;
+}
+
+.service-card{
+    transtion:0.3s ease-in-out
+}
+
+.service-card:hover{
+    border-right-width: 5px !important;
 }

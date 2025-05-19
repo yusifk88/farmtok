@@ -42,7 +42,14 @@
                     <h1 class="display-2 text-uppercase mb-4 text-center">FarmTok Consultancy</h1>
 
                     <h1 class="display-6 text-uppercase mb-4">Who we are</h1>
-                    <p>Write about us here</p>
+                    <p>FARM TOK CONSULTANCY is a register company that offers business coaching, consultancy service,
+                        media advocacy and campaign, BDS training and marketing specifically for rural SMES and farmers.
+                        With the passion to boast the rich value that is embedded in the agriculture sector we also birth our
+                        signature program radio program Farm Tok. Our aim is to equipped farmers and rural SMES to
+                        embrace the innovative potentials within the agricultural sector by build resilient livelihood
+                        approach and climate friendly environment. We are identified by the name Farm Tok Consultancy
+                        because our consultancy servers as a solution hub for opportunities by addressing the daily
+                        challenge of our rural Farmers and SMES.</p>
 
 
                 </div>
@@ -54,12 +61,11 @@
                 <div class="col-lg-8 wow fadeIn" data-wow-delay="0.5s">
                     <h1 class="display-6 text-uppercase mb-4">Our Value</h1>
                     <p class="mb-4">
-                        The values of Farm Tok Consultancy are centered by a deep
-                        commitment for communication towards decent living and equal
-                        job opportunities for women, youth and persons living with disability
-                        (PWD) to access quality information and knowledge on how they
-                        can improve their livelihood through agriculture and innovative
-                        Business approach as Small and Medium Enterprises (SMES).
+                        The values of Farm Tok Consultancy are centred by a deep commitment for
+                        communication towards decent living and equal job opportunities for women, youth and persons
+                        living with disability (PWD) to access quality information and knowledge on how they can improve
+                        their livelihood through agriculture and innovative Business approach as Small and Medium
+                        Enterprises (SMES)
                     </p>
 
                 </div>
@@ -85,68 +91,53 @@
                     <h1 class="display-6 text-uppercase mb-4">OBJECTIVE</h1>
 
                     <p class="mb-4">
-                        The overall objectives of FARM TOK CONSULTANCY are to:
-                        enable women, youth and families to make better business decisions for increasing their income
-                        generating activities and opportunities;
-                        promote women's, economic empowerment, particularly in communities that are marginalized;
-                        contribute to the social and economic development of women, youth and Persons Living with disability
-                        (PWD) living in conditions of poverty.
+                        The overall objectives of FARM TOK CONSULTANCY are to: enable women, youth
+                        and families to make better business decisions for increasing their income generating activities and
+                        opportunities; promote women&#39;s, economic empowerment, particularly in communities that are
+                        marginalized; contribute to the social and economic development of women, youth and Persons
+                        Living with disability (PWD) living in conditions of poverty.
                     </p>
 
                 </div>
 
                 <div class="col-lg-12">
                     <hr>
-                    <h1 class="display-3">The main services we are offering</h1>
+                    <h4 class="display-3">Our  core services</h4>
                 </div>
 
-                <div class="col-lg-4">
-                    <div class="card rounded border-0" style="background-color: rgba(0,128,1,0.18); color: green!important; height: 340px; border-right: 15px solid green!important;">
-                        <div class="card-body text-success">
-                            <h3 class="text-success">Business Coaching And Consulting Service</h3>
-                            <ul>
-                                <li>Business Coach</li>
-                                <li>Business Consultation</li>
-                                <li>Monitoring and Evaluation</li>
-                            </ul>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="card rounded border-0" style="background-color: rgba(10,187,239,0.18); height: 340px; border-right: 15px solid #0abbef!important;">
+                <div class="col-md-4 wow fadeIn" >
+                    <div class="card  border-0 rounded" style="border-right:15px solid #194A11!important;">
                         <div class="card-body">
-                            <h3 style="color: #0ABBEF">Capacity Building And Training</h3>
-                            <ul>
-                                <li>Business management training</li>
-                                <li>ntrepreneurship Development Programs</li>
-                                <li>Workshops and seminars on market trends</li>
-                                <li>Technical training in modern farming techniques</li>
-                                <li>Proposal writing</li>
-                                <li>Business strategy and planning</li>
-                            </ul>
+                            <h4 class="mb-2">⁠Business Coaching & Psychosocial Development</h4>
+                            We provide tailored business coaching and psychosocial support to empower rural youth, women, and persons living with disabilities to build resilient and sustainable agricultural enterprises.
 
                         </div>
                     </div>
+
                 </div>
 
-
-                <div class="col-lg-4">
-                    <div class="card rounded border-0" style="background-color: rgba(253,191,4,0.18); height: 340px; border-right: 15px solid #FDBF04!important;">
+                <div class="col-md-4 wow fadeIn">
+                    <div class="card border-0 rounded" style="border-right:15px solid #EBAD24!important;">
                         <div class="card-body">
-                            <h3 style="color: #FDBF04">Business Branding And Advocacy</h3>
-                            <ul>
-                                <li>Logo designs and visual identity</li>
-                                <li>Brand strategy and development</li>
-                                <li>Social media management</li>
-                                <li>Business networking and representation</li>
-                                <li>Policy advocacy and Support</li>
-                            </ul>
+                            <h4 class=" mb-2">⁠Business Coaching & Psychosocial Development</h4>
+                            We provide tailored business coaching and psychosocial support to empower rural youth, women, and persons living with disabilities to build resilient and sustainable agricultural enterprises.
 
                         </div>
                     </div>
+
                 </div>
+
+                <div class="col-md-4 wow fadeIn">
+                    <div class="card border-0 rounded" style="border-right:15px solid #10CAF0!important;">
+                        <div class="card-body">
+                            <h4 class=" mb-2">⁠Business Coaching & Psychosocial Development</h4>
+                            We provide tailored business coaching and psychosocial support to empower rural youth, women, and persons living with disabilities to build resilient and sustainable agricultural enterprises.
+
+                        </div>
+                    </div>
+
+                </div>
+
 
             </div>
 

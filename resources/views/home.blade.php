@@ -15,7 +15,10 @@
 @section("page")
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-6 wow fadeIn" data-wow-delay="0.1s">
+    <div
+        class="container-fluid p-0 mb-6 wow fadeIn"
+         data-wow-delay="0.1s"
+    >
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="0" class="active"
@@ -23,7 +26,7 @@
                     <img class="img-fluid" src="img/carousel-1.jpg" alt="Image">
                 </button>
                 <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="1" aria-label="Slide 2">
-                    <img class="img-fluid" src="img/carousel-2.jpg" alt="Image">
+                    <img class="img-fluid" src="img/carousel-2.jpeg" alt="Image">
                 </button>
                 <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="2" aria-label="Slide 3">
                     <img class="img-fluid" src="img/carousel-3.jpg" alt="Image">
@@ -40,7 +43,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <img class="w-100" src="img/carousel-2.jpeg" alt="Image">
                     <div class="carousel-caption">
                         <h1 class="display-1 text-white mb-4 animated zoomIn">
                             Business Coach,
@@ -68,49 +71,51 @@
 
 
     <!-- About Start -->
-    <div class="container-fluid pt-6 pb-6">
+    <div class="container-fluid  pb-6">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="about-img">
-                        <img class="img-fluid w-100" src="/img/crest.png">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h1 class="display-6 text-uppercase mb-4">Our service include:</h1>
-                    <p class="mb-4">At FarmTok we give you all the tools you need to step up your business with
-                        the appropriate  professional and technical skills needed to help you present and grow your business better.</p>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0 btn-xl-square bg-light">
-                                    <i class="fa fa-users-cog fa-2x text-primary"></i>
-                                </div>
-                                <h5 class="lh-base text-uppercase mb-0">Business Coaching And Consulting Service</h5>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0 btn-xl-square bg-light">
-                                    <i class="fa fa-tachometer-alt fa-2x text-primary"></i>
-                                </div>
-                                <h5 class="lh-base text-uppercase mb-0">Capacity Building And Training</h5>
-                            </div>
-                        </div>
 
-                        <div class="col-sm-12">
-                            <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0 btn-xl-square bg-light">
-                                    <i class="fa fa-paint-brush fa-2x text-primary"></i>
-                                </div>
-                                <h5 class="lh-base text-uppercase mb-0">Business Branding And Advocacy</h5>
-                            </div>
+                <div class="col-md-2 mx-auto wow fadeIn" >
+                    <img class="img-fluid w-100" src="/img/crest.png">
+                </div>
+                <div class="col-lg-12">
+                    <h1 class="display-6 text-center">Our  core services</h1>
+
+                </div>
+
+                <div class="col-md-4 wow fadeIn" >
+                    <div class="card  border-0 rounded service-card" style="border-right:15px solid #194A11!important;">
+                        <div class="card-body">
+                            <h4 class="mb-2">⁠Business Coaching & Psychosocial Development</h4>
+                            We provide tailored business coaching and psychosocial support to empower rural youth, women, and persons living with disabilities to build resilient and sustainable agricultural enterprises.
+
                         </div>
                     </div>
-                    <div class="border border-5 rounded border-primary p-4 text-center mt-4">
-                        <h4 class="lh-base text-uppercase mb-0">Let's help you grow beyond borders!</h4>
-                    </div>
+
                 </div>
+
+                <div class="col-md-4 wow fadeIn">
+                    <div class="card border-0 rounded service-card" style="border-right:15px solid #EBAD24!important;">
+                        <div class="card-body">
+                            <h4 class=" mb-2">⁠Business Coaching & Psychosocial Development</h4>
+                            We provide tailored business coaching and psychosocial support to empower rural youth, women, and persons living with disabilities to build resilient and sustainable agricultural enterprises.
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 wow fadeIn">
+                    <div class="card border-0 rounded service-card" style="border-right:15px solid #10CAF0!important;">
+                        <div class="card-body">
+                            <h4 class=" mb-2">⁠Business Coaching & Psychosocial Development</h4>
+                            We provide tailored business coaching and psychosocial support to empower rural youth, women, and persons living with disabilities to build resilient and sustainable agricultural enterprises.
+
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
         </div>
     </div>
@@ -252,138 +257,100 @@
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h1 class="display-6 text-uppercase mb-5">Our partners</h1>
             </div>
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="testimonial-img">
-                        <div class="animated flip infinite">
-                            <img class="img-fluid" src="img/giz.jpeg" alt="">
-                        </div>
-                        <div class="animated flip infinite">
-                            <img class="img-fluid" src="img/undp.png" alt="">
-                        </div>
-                        <div class="animated flip infinite">
-                            <img class="img-fluid" src="img/worldbank.gif" alt="">
-                        </div>
-                        <div class="animated flip infinite">
-                            <img class="img-fluid"  src="img/usaid.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="testimonial-item">
-                            <div class="d-flex align-items-center mb-4">
-                                <img class="img-fluid" width="220" src="/img/giz.jpeg" alt="">
-                                <div class="ms-3">
-                                    <h5 class="text-uppercase">GIZ</h5>
-                                </div>
-                            </div>
-                            <p class="fs-5">(Deutsche Gesellschaft für Internationale Zusammenarbeit GmbH), a German development agenc
-                            </p>
-                        </div>
-                        <div class="testimonial-item">
-                            <div class="d-flex align-items-center mb-4">
-                                <img class="img-fluid" width="120px" src="/img/undp.png" alt="">
-                                <div class="ms-3">
 
-                                    <h5 class="text-uppercase">UNDP</h5>
-                                </div>
-                            </div>
-                            <p class="fs-5">United Nations Development Programme
-                            </p>
-                        </div>
-                        <div class="testimonial-item">
-                            <div class="d-flex align-items-center mb-4">
-                                <img class="img-fluid" width="220" src="/img/worldbank.gif" alt="">
-                                <div class="ms-3">
-                                    <h5 class="text-uppercase">World bank</h5>
-                                </div>
-                            </div>
-                            <p class="fs-5">World Bank, international financial institution
-                            </p>
-                        </div>
-                        <div class="testimonial-item">
-                            <div class="d-flex align-items-center mb-4">
-                                <img class="img-fluid" width="220" src="/img/usaid.png" alt="">
-                                <div class="ms-3">
-                                    <h5 class="text-uppercase">USAID</h5>
-                                </div>
-                            </div>
-                            <p class="fs-5">The U.S. Agency for International Developmen</p>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <img alt="International labour organization" title="International labour organization" class="img-fluid m-2" src="/img/ilo.png">
                 </div>
+    <div class="col-md-2">
+                    <img alt="African seed" title="African seed" class="img-fluid" src="/img/african_seed.jpg">
+                </div>
+    <div class="col-md-2">
+                    <img alt="The development alchemist" title="African seed"  class="img-fluid" src="/img/alchemist.jpg">
+                </div>
+    <div class="col-md-2">
+                    <img alt="Adami Project" title="Adami Project" class="img-fluid" src="/img/adami.png">
+                </div>
+    <div class="col-md-2">
+                    <img alt="Adami Project" title="Adami Project" class="img-fluid" src="/img/opportunity_salone.jpg">
+                </div>
+
+    <div class="col-md-2">
+                    <img alt="The Sierra Leone Chamber of Agribusiness Development" title="The Sierra Leone Chamber of Agribusiness Development" class="img-fluid" src="/img/slecad.jpg">
+                </div>
+
+
             </div>
         </div>
     </div>
     <!-- Testimonial End -->
 
-    <!-- Service Start -->
-    <div class="container-fluid service pt-6 pb-6">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h1 class="display-6 text-uppercase mb-5">Projects</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
-                        <div class="service-inner pb-5">
-                            <img class="img-fluid w-100 rounded" src="img/service-1.jpg" alt="">
-                            <div class="service-text px-5 pt-4">
-                                <h4 class="text-uppercase">Business development seminar for women</h4>
-                                    <p>Summary of the event and something small to read</p>
+{{--    <!-- Service Start -->--}}
+{{--    <div class="container-fluid service pt-6 pb-6">--}}
+{{--        <div class="container">--}}
+{{--            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">--}}
+{{--                <h1 class="display-6 text-uppercase mb-5">Projects</h1>--}}
+{{--            </div>--}}
+{{--            <div class="row g-4">--}}
+{{--                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">--}}
+{{--                    <div class="service-item">--}}
+{{--                        <div class="service-inner pb-5">--}}
+{{--                            <img class="img-fluid w-100 rounded" src="img/service-1.jpg" alt="">--}}
+{{--                            <div class="service-text px-5 pt-4">--}}
+{{--                                <h4 class="text-uppercase">Business development seminar for women</h4>--}}
+{{--                                    <p>Summary of the event and something small to read</p>--}}
 
-                            </div>
-                            <a class="btn btn-light px-3" href="">Read More<i
-                                    class="bi bi-chevron-double-right ms-1"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="service-item">
-                        <div class="service-inner pb-5">
-                            <img class="img-fluid w-100 rounded" src="img/service-2.jpg" alt="">
-                            <div class="service-text px-5 pt-4">
-                                <h4 class="text-uppercase">SME training</h4>
-                                    <p>Summary of the event</p>
-                            </div>
-                            <a class="btn btn-light px-3" href="">Read More<i
-                                    class="bi bi-chevron-double-right ms-1"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
-                        <div class="service-inner pb-5">
-                            <img class="img-fluid w-100 rounded" src="img/service-3.jpg" alt="">
-                            <div class="service-text px-5 pt-4">
-                                <h4 class="text-uppercase">Brand and packaging training</h4>
-                                    <p>Summary of the event and something small to read</p>
-                            </div>
-                            <a class="btn btn-light px-3" href="">Read More<i
-                                    class="bi bi-chevron-double-right ms-1"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="service-item">
-                        <div class="service-inner pb-5">
-                            <img class="img-fluid w-100 rounded" src="img/service-4.jpg" alt="">
-                            <div class="service-text px-5 pt-4">
-                                <h4 class="text-uppercase">Business consultancy </h4>
-                                <p>Summary of the event and something small to read</p>
-                            </div>
-                            <a class="btn btn-light px-3" href="">Read More<i
-                                    class="bi bi-chevron-double-right ms-1"></i></a>
-                        </div>
-                    </div>
-                </div>
+{{--                            </div>--}}
+{{--                            <a class="btn btn-light px-3" href="">Read More<i--}}
+{{--                                    class="bi bi-chevron-double-right ms-1"></i></a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">--}}
+{{--                    <div class="service-item">--}}
+{{--                        <div class="service-inner pb-5">--}}
+{{--                            <img class="img-fluid w-100 rounded" src="img/service-2.jpg" alt="">--}}
+{{--                            <div class="service-text px-5 pt-4">--}}
+{{--                                <h4 class="text-uppercase">SME training</h4>--}}
+{{--                                    <p>Summary of the event</p>--}}
+{{--                            </div>--}}
+{{--                            <a class="btn btn-light px-3" href="">Read More<i--}}
+{{--                                    class="bi bi-chevron-double-right ms-1"></i></a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">--}}
+{{--                    <div class="service-item">--}}
+{{--                        <div class="service-inner pb-5">--}}
+{{--                            <img class="img-fluid w-100 rounded" src="img/service-3.jpg" alt="">--}}
+{{--                            <div class="service-text px-5 pt-4">--}}
+{{--                                <h4 class="text-uppercase">Brand and packaging training</h4>--}}
+{{--                                    <p>Summary of the event and something small to read</p>--}}
+{{--                            </div>--}}
+{{--                            <a class="btn btn-light px-3" href="">Read More<i--}}
+{{--                                    class="bi bi-chevron-double-right ms-1"></i></a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">--}}
+{{--                    <div class="service-item">--}}
+{{--                        <div class="service-inner pb-5">--}}
+{{--                            <img class="img-fluid w-100 rounded" src="img/service-4.jpg" alt="">--}}
+{{--                            <div class="service-text px-5 pt-4">--}}
+{{--                                <h4 class="text-uppercase">Business consultancy </h4>--}}
+{{--                                <p>Summary of the event and something small to read</p>--}}
+{{--                            </div>--}}
+{{--                            <a class="btn btn-light px-3" href="">Read More<i--}}
+{{--                                    class="bi bi-chevron-double-right ms-1"></i></a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
 
-            </div>
-        </div>
-    </div>
-    <!-- Service End -->
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--    <!-- Service End -->--}}
 
 
 @endsection
