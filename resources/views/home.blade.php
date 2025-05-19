@@ -21,15 +21,15 @@
     >
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="0" class="active"
+                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="0" class="active rounded"
                         aria-current="true" aria-label="Slide 1">
-                    <img class="img-fluid" src="img/carousel-1.jpg" alt="Image">
+                    <img class="img-fluid rounded" src="img/carousel-1.jpg" alt="Image">
                 </button>
-                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="1" aria-label="Slide 2">
-                    <img class="img-fluid" src="img/carousel-2.jpeg" alt="Image">
+                <button type="button" data-bs-target="#header-carousel" class="rounded" data-bs-slide-to="1" aria-label="Slide 2">
+                    <img class="img-fluid rounded" src="img/carousel-2.jpeg" alt="Image">
                 </button>
-                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="2" aria-label="Slide 3">
-                    <img class="img-fluid" src="img/carousel-3.jpg" alt="Image">
+                <button type="button" data-bs-target="#header-carousel" class="rounded" data-bs-slide-to="2" aria-label="Slide 3">
+                    <img class="img-fluid rounded" src="img/carousel-3.jpeg" alt="Image">
                 </button>
             </div>
             <div class="carousel-inner">
@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-3.jpg" alt="Image">
+                    <img class="w-100" src="img/carousel-3.jpeg" alt="Image">
                     <div class="carousel-caption">
                         <h1 class="display-1 text-white mb-4 animated zoomIn">
                             A platform for
@@ -213,34 +213,12 @@
                             across different demographics such as youth in business, women in business and PWDs.
                         </p>
                         <div class="row g-4 pt-2 mb-4">
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                            <div class="col-sm-12 wow fadeIn" data-wow-delay="0.4s">
                                 <div class="flex-column rounded text-center border border-5 border-primary p-5">
-                                    <h1 class="text-white" data-toggle="counter-up">1,500</h1>
-                                    <p class="text-white text-uppercase mb-0">Youth trained</p>
+                                    <h1 class="text-white" data-toggle="counter-up">1,200</h1>
+                                    <p class="text-white mb-0">Trained women youth and person living with disability</p>
                                 </div>
                             </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-                                <div class="flex-column rounded text-center border border-5 border-primary p-5">
-                                    <h1 class="text-white" data-toggle="counter-up">2,000</h1>
-                                    <p class="text-white text-uppercase mb-0">Consultation for women-led businesses</p>
-                                </div>
-                            </div>
-
-                               <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-                                <div class="flex-column rounded text-center border border-5 border-primary p-5">
-                                    <h1 class="text-white" data-toggle="counter-up">200</h1>
-                                    <p class="text-white text-uppercase mb-0">Brands transformed</p>
-                                </div>
-                            </div>
-
-
-                               <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-                                <div class="flex-column rounded text-center border border-5 border-primary p-5">
-                                    <h1 class="text-white" data-toggle="counter-up">700</h1>
-                                    <p class="text-white text-uppercase mb-0">PWDs training support</p>
-                                </div>
-                            </div>
-
 
                         </div>
 

@@ -580,9 +580,10 @@
 }
 
 .service-card{
-    transtion:0.3s ease-in-out
+    transtion:0.3s ease-in-out;
 }
 
 .service-card:hover{
+
     border-right-width: 5px !important;
 }

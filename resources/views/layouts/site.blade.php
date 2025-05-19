@@ -62,10 +62,7 @@
                        href="https://www.facebook.com/share/16TN3NGVBS"><i
                             class="fab fa-facebook-f"></i></a>
 
-
-                    <a class="btn btn-sm-square btn-light text-primary ms-2 rounded" href=""><i
-                            class="fab fa-twitter"></i></a>
-                    <a class="btn btn-sm-square btn-light text-primary ms-2 rounded" href=""><i
+                    <a class="btn btn-sm-square btn-light text-primary ms-2 rounded" href="https://www.linkedin.com/in/farm-tok-consultancy-71836a326/" target="_blank"><i
                             class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
@@ -376,13 +373,13 @@
                                     type="email"
                                     placeholder="you@example.com"
                                     required=""
-                                    class="form-control border-0 bg-light newsletter-form-input"
-                                    style="font-family: Inter, sans-serif; color: rgb(0, 0, 0); font-size: 14px; margin: 0px 0px 10px; width: 100%; max-width: 300px; min-width: 100px; background: rgb(255, 255, 255); border: 1px solid rgb(209, 213, 219); box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px; border-radius: 6px; padding: 8px 12px;">
+                                    class=" newsletter-form-input form-control border-0 bg-light form-control-lg"
+                                >
 
-
-                                <button type="submit" class="newsletter-form-button"
-                                        style="background: rgb(13, 148, 136); font-size: 14px; color: rgb(255, 255, 255); font-family: Inter, sans-serif; display: flex; width: 100%; max-width: 300px; white-space: normal; height: 38px; align-items: center; justify-content: center; flex-direction: row; padding: 9px 17px; box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px; border-radius: 6px; text-align: center; font-style: normal; font-weight: 500; line-height: 20px; border: none; cursor: pointer;">
-                                    Join Waitlist
+                                <button type="submit"
+                                        class="newsletter-form-button btn btn-primary w-100 py-3 mt-2"
+                                >
+                                    Subscribe to our newsletter
                                 </button>
                                 <button type="button" class="newsletter-loading-button"
                                         style="background: rgb(13, 148, 136); font-size: 14px; color: rgb(255, 255, 255); font-family: Inter, sans-serif; display: none; width: 100%; max-width: 300px; white-space: normal; height: 38px; align-items: center; justify-content: center; flex-direction: row; padding: 9px 17px; box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px; border-radius: 6px; text-align: center; font-style: normal; font-weight: 500; line-height: 20px; border: none; cursor: pointer;">
@@ -555,15 +552,12 @@
                        target="_blank"><i
                             class="fab fa-instagram"></i></a>
 
-                    <a class="btn btn-square btn-light me-2 rounded" href=""><i
-                            class="fab fa-twitter"></i></a>
                     <a class="btn btn-square btn-light me-2 rounded" target="_blank"
                        href="https://www.facebook.com/share/16TN3NGVBS"><i
                             class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square btn-light me-2 rounded" href=""><i
-                            class="fab fa-youtube"></i></a>
-                    <a class="btn btn-square btn-light me-2 rounded" href=""><i
-                            class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-light me-2 rounded"
+                       href="https://www.linkedin.com/in/farm-tok-consultancy-71836a326/"
+                       target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
