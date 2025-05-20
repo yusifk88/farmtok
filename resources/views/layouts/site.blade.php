@@ -51,7 +51,7 @@
                     <a href="mailto:info@farmtok.org" class="text-white">info@farmtok.org</a>
                 </small>
                 <small class="ms-4"><i class="fa fa-phone-alt me-3"></i>
-                    <a class="text-white" href="tel:+232 34 12 59 21">+232 34 12 59 21</a>
+                    <a class="text-white" href="tel:+232 79060578">+232 79060578</a>
                 </small>
                 <div class="ms-3 d-flex">
                     <a class="btn btn-sm-square btn-light text-primary ms-2 rounded" target="_blank"
@@ -241,7 +241,7 @@
                     </div>
                     <div class="ms-3">
                         <h6 class="text-white text-uppercase">Tel</h6>
-                        <span class="text-white"> <a class="text-white" href="tel:+232 34 12 59 21">+232 79060578</a></span>
+                        <span class="text-white"> <a class="text-white" href="tel:+232 79060578">+232 79060578</a></span>
                     </div>
                 </div>
 
