@@ -241,7 +241,7 @@
                     </div>
                     <div class="ms-3">
                         <h6 class="text-white text-uppercase">Tel</h6>
-                        <span class="text-white"> <a class="text-white" href="tel:+232 34 12 59 21">+232 34 12 59 21</a></span>
+                        <span class="text-white"> <a class="text-white" href="tel:+232 34 12 59 21">+232 79060578</a></span>
                     </div>
                 </div>
 
