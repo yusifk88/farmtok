@@ -101,25 +101,20 @@
                 </div>
 
                 <div class="col-md-4 wow fadeIn">
-                    <div class="card border-0 rounded service-card" style="border-right:15px solid #EBAD24!important;">
+                    <div class="card border-0 rounded service-card" style="border-right:15px solid #EBAD24!important; height: 220px">
                         <div class="card-body">
-                            <h4 class=" mb-2">⁠Business Coaching & Psychosocial Development</h4>
-                            We provide tailored business coaching and psychosocial support to empower rural youth,
-                            women, and persons living with disabilities to build resilient and sustainable agricultural
-                            enterprises.
-
+                            <h4 class=" mb-2">Capacity Building & Training</h4>
+                            Our hands-on training and mentorship programs strengthen the skills, knowledge, and confidence of rural SMEs and farmers to drive growth, innovation, and inclusion in agribusiness.
                         </div>
                     </div>
 
                 </div>
 
                 <div class="col-md-4 wow fadeIn">
-                    <div class="card border-0 rounded service-card" style="border-right:15px solid #10CAF0!important;">
+                    <div class="card border-0 rounded service-card" style="border-right:15px solid #10CAF0!important; height: 220px">
                         <div class="card-body">
-                            <h4 class=" mb-2">⁠Business Coaching & Psychosocial Development</h4>
-                            We provide tailored business coaching and psychosocial support to empower rural youth,
-                            women, and persons living with disabilities to build resilient and sustainable agricultural
-                            enterprises.
+                            <h4 class=" mb-2">Policy Advocacy & Support</h4>
+                            We engage stakeholders and advocate for inclusive agricultural policies that recognize and address the unique needs of marginalized rural entrepreneurs and farming communities.
 
                         </div>
                     </div>

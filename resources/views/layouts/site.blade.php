@@ -545,7 +545,7 @@
                 <p class="mb-2 text-white"><i class="fa fa-map-marker-alt text-white me-3"></i>20 Salia Street off
                     Koroma Street
                     Kenema District, Sierra Leone</p>
-                <p class="mb-2 text-white"><i class="fa fa-phone-alt text-white me-3"></i>+232 34 12 59 21</p>
+                <p class="mb-2 text-white"><i class="fa fa-phone-alt text-white me-3"></i>+232 79060578</p>
                 <p class="mb-2 text-white"><i class="fa fa-envelope text-white me-3"></i>info@farmtok.org</p>
                 <div class="d-flex pt-3">
                     <a class="btn btn-square btn-light me-2 rounded" href="https://www.instagram.com/farmtok/"
