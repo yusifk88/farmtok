@@ -273,15 +273,33 @@
             <h1 class="display-6 text-uppercase mb-5">Meet Our team of Professionals and Volunteers</h1>
         </div>
         <div class="row g-4">
-            <div class="col-lg-3 col-md-6 wow fadeInUp offset-lg-3" data-wow-delay="0.3s">
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
                 <div class="team-item">
                     <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100 rounded" src="img/member1.jpeg" alt="">
+                        <img class="img-fluid w-100 rounded" src="/img/member4.jpeg" alt="Mariama M Kondeh">
                         <div class="team-social rounded">
-                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href="https://www.facebook.com/share/16TN3NGVBShttps://www.facebook.com/share/16TN3NGVBS"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href="https://www.linkedin.com/in/farm-tok-consultancy-71836a326/"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href="https://www.instagram.com/farmtok/"><i class="fab fa-instagram"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-1 mt-10">Mary Alpha</h5>
+                        <span>Chairman/Team Lead</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100 rounded" src="/img/member1.jpeg" alt="Grace Musu Saidu">
+                        <div class="team-social rounded">
+                            <a class="btn btn-square btn-dark mx-1" href="https://www.facebook.com/share/16TN3NGVBShttps://www.facebook.com/share/16TN3NGVBS"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href="https://www.linkedin.com/in/farm-tok-consultancy-71836a326/"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href="https://www.instagram.com/farmtok/"><i class="fab fa-instagram"></i></a>
+
                         </div>
                     </div>
                     <div class="text-center p-4">
@@ -290,15 +308,16 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
                 <div class="team-item">
                     <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100 rounded" src="img/member2.jpeg" alt="">
+                        <img class="img-fluid w-100 rounded" src="/img/member2.jpeg" alt="Michael Torya">
                         <div class="team-social rounded">
-                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href="https://www.facebook.com/share/16TN3NGVBShttps://www.facebook.com/share/16TN3NGVBS"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href="https://www.linkedin.com/in/farm-tok-consultancy-71836a326/"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href="https://www.instagram.com/farmtok/"><i class="fab fa-instagram"></i></a>
+
                         </div>
                     </div>
                     <div class="text-center p-4">
@@ -307,6 +326,25 @@
                     </div>
                 </div>
             </div>
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="team-item">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100 rounded" src="/img/member3.jpeg" alt="Mariama M Kondeh">
+                        <div class="team-social rounded">
+                            <a class="btn btn-square btn-dark mx-1" href="https://www.facebook.com/share/16TN3NGVBShttps://www.facebook.com/share/16TN3NGVBS"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href="https://www.linkedin.com/in/farm-tok-consultancy-71836a326/"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-square btn-dark mx-1" href="https://www.instagram.com/farmtok/"><i class="fab fa-instagram"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-1">Mariama M Kondeh</h5>
+                        <span>Assistant Farm Manager</span>
+                    </div>
+                </div>
+            </div>
+
 
         </div>
     </div>
