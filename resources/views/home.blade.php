@@ -23,19 +23,21 @@
     >
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="0" class="active rounded"
+                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="0"
+                        class="active rounded d-none d-md-block"
                         aria-current="true" aria-label="Slide 1">
                     <img class="img-fluid rounded" src="img/carousel-1.jpg" alt="Image">
                 </button>
-                <button type="button" data-bs-target="#header-carousel" class="rounded" data-bs-slide-to="1"
+                <button type="button" data-bs-target="#header-carousel" class="rounded d-none d-md-block" data-bs-slide-to="1"
                         aria-label="Slide 2">
                     <img class="img-fluid rounded" src="img/carousel-2.jpeg" alt="Image">
                 </button>
-                <button type="button" data-bs-target="#header-carousel" class="rounded" data-bs-slide-to="2"
+                <button type="button" data-bs-target="#header-carousel" class="rounded d-none d-md-block" data-bs-slide-to="2"
                         aria-label="Slide 3">
                     <img class="img-fluid rounded" src="img/carousel-3.jpeg" alt="Image">
                 </button>
             </div>
+
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="w-100" src="img/carousel-1.jpg" alt="Image">
