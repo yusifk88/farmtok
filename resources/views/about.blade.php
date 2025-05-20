@@ -42,14 +42,7 @@
                     <h1 class="display-2 text-uppercase mb-4 text-center">FarmTok Consultancy</h1>
 
                     <h1 class="display-6 text-uppercase mb-4">Who we are</h1>
-                    <p>FARM TOK CONSULTANCY is a register company that offers business coaching, consultancy service,
-                        media advocacy and campaign, BDS training and marketing specifically for rural SMES and farmers.
-                        With the passion to boast the rich value that is embedded in the agriculture sector we also birth our
-                        signature program radio program Farm Tok. Our aim is to equipped farmers and rural SMES to
-                        embrace the innovative potentials within the agricultural sector by build resilient livelihood
-                        approach and climate friendly environment. We are identified by the name Farm Tok Consultancy
-                        because our consultancy servers as a solution hub for opportunities by addressing the daily
-                        challenge of our rural Farmers and SMES.</p>
+                    <p>FARM TOK CONSULTANCY is a registered company that offers business coaching, consultancy service, media advocacy and campaign, BDS training and marketing specifically for rural SMES and farmers. With the passion to boast the rich value that is embedded in the agriculture sector we also birth our signature radio program "Farm Tok". We are identified by the name Farm Tok Consultancy because our consultancy serves as a solution hub for opportunities by addressing the daily challenge of our rural Farmers and SMES.</p>
 
 
                 </div>
@@ -91,16 +84,41 @@
                     <h1 class="display-6 text-uppercase mb-4">OBJECTIVE</h1>
 
                     <p class="mb-4">
-                        The overall objectives of FARM TOK CONSULTANCY are to: enable women, youth
+                        The overall objectives of FARM TOK CONSULTANCY is to: enable women, youth
                         and families to make better business decisions for increasing their income generating activities and
                         opportunities; promote women&#39;s, economic empowerment, particularly in communities that are
                         marginalized; contribute to the social and economic development of women, youth and Persons
                         Living with disability (PWD) living in conditions of poverty.
                     </p>
 
+
+
+
+
                 </div>
 
                 <div class="col-lg-12">
+                    <p>
+                        At Farm Tok Consultancy, we believe that hands-on learning is the most effective path to transformation. That’s why we’ve established a practical farm demonstration site in Kpai Community, Small Bo Chiefdom, Kenema District—a living classroom where rural farmers and entrepreneurs can learn and apply safe, sustainable, and climate-smart agricultural practices.
+
+                        What We Offer at the Demo Site:
+                    <ul>
+                        <li>
+                            Vegetable Nursery
+                        </li>
+
+                        <li>
+                            Organic Seed Multiplication
+                        </li>
+                        <li>
+                            Safe & Proper Agricultural Techniques
+                        </li>
+                    </ul>
+
+                    This demo site is not just a training ground, it’s a hub of innovation, inclusion, and empowerment for youth, women, and persons living with disabilities. Through our experiential learning model, we are building a new generation of confident, skilled, and sustainable rural entrepreneurs.
+
+                    Farm Tok Consultancy is rooted in community, cultivating change.
+                    </p>
                     <hr>
                     <h4 class="display-3">Our  core services</h4>
                 </div>
