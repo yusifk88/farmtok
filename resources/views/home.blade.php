@@ -22,7 +22,7 @@
         data-wow-delay="0.1s"
     >
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
+            <div class="carousel-indicators d-sm-none d-md-flex">
                 <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="0"
                         class="active rounded d-none d-md-block"
                         aria-current="true" aria-label="Slide 1">
