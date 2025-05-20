@@ -134,7 +134,7 @@
         <div class="container pt-4">
             <div class="row g-0 feature-row wow fadeIn" data-wow-delay="0.1s">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="feature-item border h-100">
+                    <div class="feature-item border h-100" style="border-top-left-radius:20px !important; border-bottom-left-radius:20px !important;">
                         <div class="feature-icon btn-xxl-square bg-primary mb-4 mt-n4">
                             <i class="fa fa-hammer fa-2x text-white"></i>
                         </div>
@@ -185,7 +185,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.6s">
-                    <div class="feature-item border h-100 bg-primary text-white">
+                    <div class="feature-item border h-100 bg-primary text-white" style="border-top-right-radius:20px !important; border-bottom-right-radius:20px !important;">
                         <div class="feature-icon btn-xxl-square bg-primary mb-4 mt-n4">
                             <i class="fa fa-info fa-2x text-white"></i>
                         </div>

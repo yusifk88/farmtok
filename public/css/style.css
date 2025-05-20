@@ -292,6 +292,10 @@
 
 .feature-row {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    border-top-left-radius:20px !important;
+    border-bottom-left-radius:20px !important;
+    border-bottom-right-radius:20px !important;
+    border-top-right-radius:20px !important;
 }
 
 .feature-item {
